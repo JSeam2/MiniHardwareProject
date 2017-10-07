@@ -1,0 +1,13 @@
+module logicOut (
+    input clk,  // clock
+    input rst,  // reset  
+        
+    output logicOut_1,
+    output logicOut_2,
+    output logicOut_3
+  ) {
+
+  always {
+
+  }
+}
