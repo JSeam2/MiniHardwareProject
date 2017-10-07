@@ -4,7 +4,7 @@
     <src top="true">mojo_top.luc</src>
     <src>logicOut.luc</src>
     <ucf lib="true">mojo.ucf</ucf>
-    <ucf>user.ucf</ucf>
+    <ucf>pinout.ucf</ucf>
     <ucf lib="true">io_shield.ucf</ucf>
     <component>counter.luc</component>
     <component>reset_conditioner.luc</component>

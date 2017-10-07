@@ -1,13 +1,27 @@
 module logicOut (
     input clk,  // clock
     input rst,  // reset  
-        
-    output logicOut_1,
-    output logicOut_2,
-    output logicOut_3
+    
+    output signalA,
+    output signalB,
+    output signalC
   ) {
 
+  .clk(clk), .rst(rst) {
+    dff counterA[28];
+    dff counterB[29];
+    dff counterC[30];   
+  }
+  
   always {
+    signalA = counterA.q[27];
+    counterA.d = counterA.q + 1;
+    
+    signalB = counterB.q[28];
+    counterB.d = counterB.q + 1;
+    
+    signalC = counterC.q[29];
+    counterC.d = counterC.q + 1;
 
   }
 }

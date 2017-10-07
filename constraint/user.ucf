@@ -1,3 +1,0 @@
-NET "logicOut_0" LOC = P11 | IOSTANDARD = LVTTL;
-NET "logicOut_1" LOC = P9 | IOSTANDARD = LVTTL;
-NET "logicOut_2" LOC = P7 | IOSTANDARD = LVTTL;

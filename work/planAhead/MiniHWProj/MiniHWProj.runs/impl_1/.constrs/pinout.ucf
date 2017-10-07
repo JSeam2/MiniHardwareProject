@@ -1,0 +1,6 @@
+NET "pinoutA" LOC = P40;
+NET "pinoutA" IOSTANDARD = LVTTL;
+NET "pinoutB" LOC = P50;
+NET "pinoutB" IOSTANDARD = LVTTL;
+NET "pinoutC" LOC = P51;
+NET "pinoutC" IOSTANDARD = LVTTL;
